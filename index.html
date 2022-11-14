@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Framework.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Dunder Mifilin Paper Company</title>
+</head>
+<body>
+    <!-- start header  -->
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header d-flex p-10 c-white p-relative">
+                <div class="logo fs-20 p-15 fw-bold">Dunder Mifilin</div>
+                <div class="links-container">
+                    <ul class="links fs-15 w-full">
+                        <li><a class="pb-5 active" href="#" >About</a></li>
+                        <li><a class="pb-5" data-sec=".employees-page" href="#" >Employees</a></li>
+                        <li><a class="pb-5" data-sec=".gallery" href="#" >Gallery</a></li>
+                        <li><a class="pb-5" data-sec=".timeline" href="#" >Timeline</a></li>
+                        <li><a class="pb-5" data-sec=".services" href="#" >Services</a></li>
+                        <li><a class="pb-5" data-sec=".features" href="#" >Features</a></li>
+                        <li><a class="pb-5" data-sec=".testimonials" href="#" >Testimonials</a></li>
+                        <li><a class="pb-5" data-sec=".contact" href="#" >Contact</a></li>
+                    </ul>
+                    <button class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="intro-txt p-absolute c-white txt-c">
+            <h1>We Are <span>Dunder Mifflin</span></h1>
+            <p>Dunder Mifflin Paper Company, Inc. Is A Fictional Paper And Office Supplies Wholesale Company Featured In The American Television Series The Office</p>
+        </div>
+    </div>
+    <!-- end header  -->
+    <!-- start setting-box  -->
+    <div class="setting-box">
+        <div class="toggle">
+            <i class="sett fa fa-gear"></i>
+        </div>
+        <div class="settings-container">
+            <div class="box p-20 mb-15 txt-c bg-eee">
+                <h4 class="m-0 fs-14">Colors</h4>
+                <ul class="color-list p-0 txt-c">
+                    <li class="active" data-color="#FF9800"></li>
+                    <li data-color="#f44336"></li>
+                    <li data-color="#22c55e"></li>
+                    <li data-color="#0c57e2"></li>
+                    <li data-color="#f310a7"></li>
+                    <li data-color="#08c1c4"></li>
+                </ul>
+            </div>
+            <div class="box p-20 mb-15 txt-c bg-eee">
+                <h4 class="m-0 fs-14">Random Backgrounds</h4>
+                <div class="random-backgrounds">
+                    <span class="yes c-white mt-10 fs-13 fw-bold btn-shape" data-back="yes">Yes</span>
+                    <span class="active no c-white mt-10 fs-13 fw-bold btn-shape" data-back="no">No</span>
+                </div>
+            </div>
+            <div class="box p-20 mb-15 txt-c bg-eee">
+                <h4 class="m-0 fs-14">Show Bullets</h4>
+                <div class="show-bullets">
+                    <span class="active yes c-white mt-10 fs-13 fw-bold btn-shape" data-show="yes">Yes</span>
+                    <span class="no c-white mt-10 fs-13 fw-bold btn-shape" data-show="no">No</span>
+                </div>
+            </div>
+            <div class="box p-20 mb-15 txt-c bg-eee">
+                <button class="reset p-10 d-block c-white fw-bold rad-6">
+                    Reset Options
+                </button>
+            </div>
+            
+        </div>
+    </div>
+    <!-- end setting-box  -->
+
+    <!-- start nav bullets -->
+    <div class="nav-b">
+        <div class="bullet" data-sec="#employees">
+            <div class="tooltip">Employees</div>
+        </div>
+        <div class="bullet" data-sec="#gallery">
+            <div class="tooltip">Gallery</div>
+        </div>
+        <div class="bullet" data-sec="#timeline">
+            <div class="tooltip">Timeline</div>
+        </div>
+        <div class="bullet" data-sec="#services">
+            <div class="tooltip">Services</div>
+        </div>
+        <div class="bullet" data-sec="#features">
+            <div class="tooltip">Features</div>
+        </div>
+        <div class="bullet" data-sec="#testimonials">
+            <div class="tooltip">Testimonials</div>
+        </div>
+        <div class="bullet" data-sec="#contact">
+            <div class="tooltip">Contact</div>
+        </div>
+    </div>
+    <!-- end nav bullets -->
+
+    <!-- start employees  -->
+    <div id="employees" class="employees-page pt-50 pb-50">
+        <h2 class="fw-bold fs-35 txt-c main-title">Employees</h2>
+        <div class="container">
+            <div class="employees-page d-grid m-20 gap-20">
+                <div class="employee bg-white rad-6 p-20 p-relative">
+                    <div class="txt-c">
+                        <img class="rad-half mt-10 mb-10" src="Images/1662279970437.jfif" alt="">
+                        <h4 class="m-0">Ahmed Algrgawy
+                        </h4>
+                        <p class="fw-bold fs-15 mt-10 mb-10">CEO</p>
+                        <p class="c-grey fs-13 mt-5 mb-0">5 Branches</p>
+                    </div>
+                    <div class="icons fs-14 p-relative">
+                        <span class="vip fw-bold c-orange">VIP</span>
+                    </div>
+                </div>
+                <div class="employee bg-white rad-6 p-20 p-relative">
+                    <div class="txt-c">
+                        <img class="rad-half mt-10 mb-10" src="images/avatar.png" alt="">
+                        <h4 class="m-0">Michael Scott
+                        </h4>
+                        <p class="fw-bold fs-15 mt-10 mb-10">Manger</p>
+                        <p class="c-grey fs-13 mt-5 mb-0">90 Clients</p>
+                    </div>
+                    <div class="icons fs-14 p-relative">
+                        <span class="vip fw-bold c-orange">VIP</span>
+                    </div>
+                </div>
+                <div class="employee bg-white rad-6 p-20 p-relative">
+                    <div class="txt-c">
+                        <img class="rad-half mt-10 mb-10" src="images/avatar.png" alt="">
+                        <h4 class="m-0">Dwight Schrute
+                        </h4>
+                        <p class="fw-bold fs-15 mt-10 mb-10">Head of Sales Department</p>
+                        <p class="c-grey fs-13 mt-5 mb-0">85 Clients</p>
+                    </div>
+                    <div class="icons fs-14 p-relative">
+                        <span class="vip fw-bold c-orange">VIP</span>
+                    </div>
+                </div>
+                <div class="employee bg-white rad-6 p-20 p-relative">
+                    <div class="txt-c">
+                        <img class="rad-half mt-10 mb-10" src="images/avatar.png" alt="">
+                        <h4 class="m-0">Pam Beesly
+                        </h4>
+                        <p class="fw-bold fs-15 mt-10 mb-10">Receptionist</p>
+                        <p class="c-grey fs-13 mt-5 mb-0">5 Paintings</p>
+                    </div>
+                    <div class="icons fs-14 p-relative">
+                        <!-- <span class="vip fw-bold c-orange">VIP</span> -->
+                    </div>
+                </div>
+                <div class="employee bg-white rad-6 p-20 p-relative">
+                    <div class="txt-c">
+                        <img class="rad-half mt-10 mb-10" src="images/avatar.png" alt="">
+                        <h4 class="m-0">Jim Halpert
+                        </h4>
+                        <p class="fw-bold fs-15 mt-10 mb-10">Sales Man</p>
+                        <p class="c-grey fs-13 mt-5 mb-0">80 Clients</p>
+                    </div>
+                    <div class="icons fs-14 p-relative">
+                        <!-- <span class="vip fw-bold c-orange">VIP</span> -->
+                    </div>
+                </div>
+                <div class="employee bg-white rad-6 p-20 p-relative">
+                    <div class="txt-c">
+                        <img class="rad-half mt-10 mb-10" src="images/avatar.png" alt="">
+                        <h4 class="m-0">Ryan Howard
+                        </h4>
+                        <p class="fw-bold fs-15 mt-10 mb-10">Temporary Employee</p>
+                        <p class="c-grey fs-13 mt-5 mb-0">10 Clients</p>
+                    </div>
+                    <div class="icons fs-14 p-relative">
+                        <!-- <span class="vip fw-bold c-orange">VIP</span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Employees  -->
+
+    <!-- start Gallery -->
+    <div id="gallery" class="gallery pt-50 pb-50 bg-eee ">
+        <h2 class="fw-bold fs-35 txt-c main-title">Gallery</h2>
+        <div class="container">
+            <div class="img-box txt-c">
+                <img src="images/01.jpg" alt="Christmas">
+                <img src="images/02.jpg" alt="First Day">
+                <img src="images/03.jpg" alt="Pam And Jim">
+                <img src="images/04.jpg" alt="Movie">
+                <img src="images/05.jpg" alt="Finale">
+                <img src="images/06.jpg" alt="Drinking Party">
+                <img src="images/07.jpg" alt="Crismas">
+                <img src="images/08.jpg" alt="Pam And Jim">
+                <img src="images/09.jpg" alt="Michael And Holy">
+                <img src="images/10.jpg" alt="Michael">
+            </div>
+        </div>
+    </div>
+    <!-- end Gallery -->
+
+    <!-- start Timeline -->
+    <div id="timeline" class="timeline pt-50 pb-50">
+        <h2 class="fw-bold fs-35 txt-c main-title">Timeline</h2>
+        <div class="container">
+            <div class="timeline-content p-relative overflow-h">
+                <div class="year p-relative rad-6 txt-c c-white fw-bold">2018</div>
+                <div class="left float-l">
+                    <div class="content p-20 bg-eee">
+                        <h3 class="fw-bold">New Clients</h3>
+                        <p class="m-0 l-h">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus tenetur quibusdam blanditiis beatae molestiae explicabo quia. Nemo debitis praesentium et nulla in? Assumenda eveniet est autem neque cumque necessitatibus deserunt!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right float-r">
+                    <div class="content p-20 bg-eee">
+                        <h3 class="fw-bold">New Contracts</h3>
+                        <p class="m-0 l-h">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, minima reprehenderit. Quidem debitis beatae sunt illum? Facilis soluta saepe itaque, odit eveniet vel nulla expedita ipsum nemo accusantium explicabo magnam.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year p-relative rad-6 txt-c c-white fw-bold">2020</div>
+                <div class="left float-l">
+                    <div class="content p-20 bg-eee">
+                        <h3 class="fw-bold">New Clients</h3>
+                        <p class="m-0 l-h">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus tenetur quibusdam blanditiis beatae molestiae explicabo quia. Nemo debitis praesentium et nulla in? Assumenda eveniet est autem neque cumque necessitatibus deserunt!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right float-r">
+                    <div class="content p-20 bg-eee">
+                        <h3 class="fw-bold">New Contracts</h3>
+                        <p class="m-0 l-h">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, minima reprehenderit. Quidem debitis beatae sunt illum? Facilis soluta saepe itaque, odit eveniet vel nulla expedita ipsum nemo accusantium explicabo magnam.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year p-relative rad-6 txt-c c-white fw-bold">2022</div>
+                <div class="left float-l">
+                    <div class="content p-20 bg-eee">
+                        <h3 class="fw-bold">New Clients</h3>
+                        <p class="m-0 l-h">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus tenetur quibusdam blanditiis beatae molestiae explicabo quia. Nemo debitis praesentium et nulla in? Assumenda eveniet est autem neque cumque necessitatibus deserunt!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right float-r">
+                    <div class="content p-20 bg-eee">
+                        <h3 class="fw-bold">New Contracts</h3>
+                        <p class="m-0 l-h">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, minima reprehenderit. Quidem debitis beatae sunt illum? Facilis soluta saepe itaque, odit eveniet vel nulla expedita ipsum nemo accusantium explicabo magnam.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- end Timeline -->
+
+    <!-- start our services -->
+    <div id="services" class="services pt-50 pb-50 bg-eee">
+        <h2 class="fw-bold fs-35 txt-c main-title">Our Services</h2>
+        <div class="container">
+            <div class="services-box bg-white d-flex p-15 mb-15">
+                <div class="name fw-bold txt-c fs-15">Delivery Service</div>
+                <div class="prog w-full rad-10 p-relative">
+                    <span data-prog="90%" class="p-absolute h-full"></span>
+                </div>
+            </div>
+            <div class="services-box bg-white d-flex p-15 mb-15">
+                <div class="name fw-bold txt-c fs-15">Customers Service</div>
+                <div class="prog w-full rad-10 p-relative">
+                    <span data-prog="95%" class="p-absolute h-full"></span>
+                </div>
+            </div>
+            <div class="services-box bg-white d-flex p-15 mb-15">
+                <div class="name fw-bold txt-c fs-15">Care Services</div>
+                <div class="prog w-full rad-10 p-relative">
+                    <span data-prog="75%" class="p-absolute h-full"></span>
+                </div>
+            </div>
+            <div class="services-box bg-white d-flex p-15 mb-15">
+                <div class="name fw-bold txt-c fs-15">Human Resources</div>
+                <div class="prog w-full rad-10 p-relative">
+                    <span data-prog="70%" class="p-absolute h-full"></span>
+                </div>
+            </div>
+            <div class="services-box bg-white d-flex p-15 mb-15">
+                <div class="name fw-bold txt-c fs-15">Manufacturing</div>
+                <div class="prog w-full rad-10 p-relative">
+                    <span data-prog="60%" class="p-absolute h-full"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end our services -->
+
+    <!-- start our feutures -->
+    <div id="features" class="features pt-50 pb-50">
+        <h2 class="fw-bold fs-35 txt-c main-title">Our Features</h2>
+        <div class="container">
+            <div class="feat-box txt-c">
+                <img class="w-100" src="images/activity-02.png" alt="">
+                <h4 class="fs-20 p-relative">Time</h4>
+                <p>We Are Professionals</p>
+            </div>
+            <div class="feat-box txt-c">
+                <img class="w-100" src="images/activity-01.png" alt="">
+                <h4 class="fs-20 p-relative">Quality</h4>
+                <p>We Are Professionals</p>
+            </div>
+            <div class="feat-box txt-c">
+                <img class="w-100" src="images/activity-03.png" alt="">
+                <h4 class="fs-20 p-relative">Passion</h4>
+                <p>We Are Professionals</p>
+            </div>
+            <div class="feat-box txt-c">
+                <img class="w-100" src="images/activity-01.png" alt="">
+                <h4 class="fs-20 p-relative">Incorporated Association</h4>
+                <p>We Are Professionals</p>
+            </div>
+            <div class="feat-box txt-c">
+                <img class="w-100" src="images/activity-03.png" alt="">
+                <h4 class="fs-20 p-relative">Separate Legal Entity</h4>
+                <p>We Are Professionals</p>
+            </div>
+            <div class="feat-box txt-c">
+                <img class="w-100" src="images/activity-02.png" alt="">
+                <h4 class="fs-20 p-relative">Limited Liability</h4>
+                <p>We Are Professionals</p>
+            </div>
+            <div class="feat-box txt-c">
+                <img class="w-100" src="images/activity-03.png" alt="">
+                <h4 class="fs-20 p-relative">Transferability of Shares</h4>
+                <p>We Are Professionals</p>
+            </div>
+            <div class="feat-box txt-c">
+                <img class="w-100" src="images/activity-01.png" alt="">
+                <h4 class="fs-20 p-relative">Perpetual Existence</h4>
+                <p>We Are Professionals</p>
+            </div>
+            <div class="feat-box txt-c">
+                <img class="w-100" src="images/activity-02.png" alt="">
+                <h4 class="fs-20 p-relative">Common Seal</h4>
+                <p>We Are Professionals</p>
+            </div>
+        </div>
+    </div>
+    <!-- end our feutures -->
+
+    <!-- start TESTIMONIALS -->
+    <div id="testimonials" class="testimonials pt-50 pb-50">
+        <div class="container">
+            <h2 class="fw-bold fs-35 txt-c p-relative">TESTIMONIALS</h2>
+            <div class="test-box bt mb-10 p-relative p-20 float-l bg-eee">
+                <p>Iam Very Happy With everything That The Employees do.</p>
+                <div class="person overflow-h">
+                    <img class="w-100 float-l rad-half mr-20" src="images/1662279970437.jfif" alt="">
+                    <h4>Ahmed Algrgawy</h4>
+                    <p>CEO At Company</p>
+                </div>
+            </div>
+            <div class="test-box rad-10 mb-10 p-relative p-20 float-l bg-eee">
+                <p>Iam Very Happy With everything That The Employees do.</p>
+                <div class="person overflow-h">
+                    <img class="w-100 float-l rad-half mr-20" src="images/1662279970437.jfif" alt="">
+                    <h4>Ahmed Algrgawy</h4>
+                    <p>CEO At Company</p>
+                </div>
+            </div>
+            <div class="test-box rad-10 mb-10 p-relative p-20 float-l bg-eee">
+                <p>Iam Very Happy With everything That The Employees do.</p>
+                <div class="person overflow-h">
+                    <img class="w-100 float-l rad-half mr-20" src="images/1662279970437.jfif" alt="">
+                    <h4>Ahmed Algrgawy</h4>
+                    <p>CEO At Company</p>
+                </div>
+            </div>
+            <div class="test-box rad-10 mb-10 p-relative p-20 float-l bg-eee">
+                <p>Iam Very Happy With everything That The Employees do.</p>
+                <div class="person overflow-h">
+                    <img class="w-100 float-l rad-half mr-20" src="images/1662279970437.jfif" alt="">
+                    <h4>Ahmed Algrgawy</h4>
+                    <p>CEO At Company</p>
+                </div>
+            </div>
+            <div class="test-box rad-10 mb-10 p-relative p-20 float-l bg-eee">
+                <p>Iam Very Happy With everything That The Employees do.</p>
+                <div class="person overflow-h">
+                    <img class="w-100 float-l rad-half mr-20" src="images/1662279970437.jfif" alt="">
+                    <h4>Ahmed Algrgawy</h4>
+                    <p>CEO At Company</p>
+                </div>
+            </div>
+            <div class="test-box rad-10 mb-10 p-relative p-20 float-l bg-eee">
+                <p>Iam Very Happy With everything That The Employees do.</p>
+                <div class="person overflow-h">
+                    <img class="w-100 float-l rad-half mr-20" src="images/1662279970437.jfif" alt="">
+                    <h4>Ahmed Algrgawy</h4>
+                    <p>CEO At Company</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- end TESTIMONIALS -->
+
+    <!-- start contact -->
+    <div id="contact" class="contact pt-50 pb-50 bg-eee">
+        <div class="overlay"></div>
+        <div class="container p-relative">
+            <h2 class="fw-bold fs-35 txt-c main-title">CONTACT</h2>
+            <form action="">
+                <div class="left float-l">
+                    <input type="text" placeholder="Your Name" name="username">
+                    <input type="text" placeholder="Your Phone" name="phone">
+                    <input type="email" placeholder="Your Email" name="e-mail">
+                    <input type="text" placeholder="Your Subject" name="subject">
+                </div>
+                <div class="right float-r">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- end contact -->
+
+    <!-- start footer  -->
+    <div class="footer p-15 c-white txt-c">
+        Made By Ahmed Algrgawy 11/14/2022
+    </div>
+    <!-- end footer  -->
+    <script src="javascript/code.js"></script>
+    <script src="javascript/jquery-1.12.4.min.js"></script>
+</body>
+</html> 
